@@ -2,7 +2,7 @@
 
 The CSV-formatted data is split up into four files:
 
-programs.csv: One row for each program at each competition, e.g., the "ICE DANCE FREE DANCE" at the "Grand Prix Final 2017 Senior and Junior". Each row includes a reference to the source PDF.
+- programs.csv: One row for each program at each competition, e.g., the "ICE DANCE FREE DANCE" at the "Grand Prix Final 2017 Senior and Junior".Each row includes a reference to the source PDF.
 
 - performances.csv: One row for each skater/team, for each program.
 

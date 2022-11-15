@@ -1,6 +1,6 @@
 Domande:
-- quali sono i componenti più difficili? (a quali componenti sono associate maggiormente le penalizzazioni nel programma)
-- chi sono i giudici più buoni?
+- Quali sono i componenti più difficili? (a quali componenti sono associate maggiormente le penalizzazioni nel programma)
+- Chi sono i giudici più buoni?
 - Sono più importanti elements o components?
 - Chi sono gli atleti che presentano elementi più difficili? (factor più alti)
 - Quali sono gli elementi più fisicamente impegnativi? (vengono presentati prima all'interno del programma)
