@@ -1,4 +1,4 @@
-# ISU Figure Skating Score Sheets as Structured Data
+# Data Visualization project
 
 At the end of each competition it oversees, the [International Skating Union](http://www.isu.org/) releases a PDF containing all scores given for each performance. That report is known as a "Protocol," and an example can be [found here](http://www.isuresults.com/results/season1718/gpf1718/gpf2017_protocol.pdf). The code in this repository downloads a series of protocol PDFs, and then extracts structured data from the scoring sheets they contain.
 
