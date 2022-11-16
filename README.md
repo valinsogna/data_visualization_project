@@ -4,30 +4,19 @@ At the end of each competition it oversees, the [International Skating Union](ht
 
 Currently, the data in this repository includes every major international competition from October 2016 through December 2017. You can find a list of those 17 competitions below.
 
-## Competitions Included
+## Glossary
 
-2016–17 season:
+This repository uses the following definitions:
 
-- ISU GP 2016 Progressive Skate America (Oct. 20-23, 2016)
-- ISU GP 2016 Skate Canada International (Oct. 27-30, 2016)
-- ISU GP Rostelecom Cup 2016 (Nov. 4-6, 2016)
-- ISU GP Trophee de France 2016 (Nov. 11-13, 2016)
-- ISU GP Audi Cup of China 2016 (Nov. 17-20, 2016)
-- ISU GP NHK Trophy 2016 (Nov. 25-27, 2016)
-- ISU Grand Prix of Figure Skating Final 2016 (Dec. 8-11, 2016)
-- ISU European Figure Skating Championships 2017 (Jan. 23-29, 2017)
-- ISU Four Continents Championships 2017 (Feb. 14-19, 2017)
-- ISU World Figure Skating Championships 2017 (Mar. 27 - Apr. 2, 2017)
-
-2017–18 season:
-
-- ISU GP Rostelecom Cup 2017 (Oct. 20-22, 2017)
-- ISU GP 2017 Skate Canada International (Oct. 27-29, 2017)
-- ISU GP Audi Cup of China 2017 (Nov. 3-5, 2017)
-- ISU GP NHK Trophy 2017 (Nov. 10-12, 2017)
-- ISU GP Internationaux de France de Patinage 2017 (Nov. 17-19, 2017)
-- ISU GP 2017 Bridgestone Skate America (Nov. 24-26, 2017)
-- Grand Prix Final 2017 Senior and Junior (Dec. 7-10, 2017)
+- __ISU__: The abbreviation for the [International Skating Union](http://www.isu.org/), the group that runs figure skating's highest-level international competitions.
+- __Protocol PDF__: The final score sheet released at the end of each competition. ([Example](http://www.isuresults.com/results/season1718/gpf1718/gpf2017_protocol.pdf?).)
+- __Program__: One segment of a figure skating competition. International figure skating competitions are divided into Short and Free programs.
+- __Elements__: The individual technical pieces of a program, such as jumps and spins. Each judge provides a score for each individual element known as a "Grade of Execution."
+- __Components__: For each performance, each judge provides scores for five "components": Skating Skills, Transitions, Performance, Composition, and Interpretation. 
+- __Aspect__: This is the term used by this analysis to refer to an individual component or element.
+- __Scale of Values__: The ISU's conversion table between the "Grade of Execution" and the points awarded for each type of element. See below for more details.
+- __Home country__: The country the judge or skater represents in competition. _Note:_ This is not necessarily a judge or skater's country of birth.
+- __Home-country preference__: The difference in the number of points a judge awards to skaters from their home country versus those from other countries. Higher home-country scores do not in and of themselves show a judge is deliberately trying to raise a compatriot’s standing; the scores could reflect a preference for a regional style of skating, for example, or an inclination toward skaters the judge has taken special note of, or even just patriotism.
 
 ## Data
 
@@ -80,4 +69,27 @@ The CSV-formatted data is split up into four files:
 
 All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). All data files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license.
 
+## Competitions Included
 
+2016–17 season:
+
+- ISU GP 2016 Progressive Skate America (Oct. 20-23, 2016)
+- ISU GP 2016 Skate Canada International (Oct. 27-30, 2016)
+- ISU GP Rostelecom Cup 2016 (Nov. 4-6, 2016)
+- ISU GP Trophee de France 2016 (Nov. 11-13, 2016)
+- ISU GP Audi Cup of China 2016 (Nov. 17-20, 2016)
+- ISU GP NHK Trophy 2016 (Nov. 25-27, 2016)
+- ISU Grand Prix of Figure Skating Final 2016 (Dec. 8-11, 2016)
+- ISU European Figure Skating Championships 2017 (Jan. 23-29, 2017)
+- ISU Four Continents Championships 2017 (Feb. 14-19, 2017)
+- ISU World Figure Skating Championships 2017 (Mar. 27 - Apr. 2, 2017)
+
+2017–18 season:
+
+- ISU GP Rostelecom Cup 2017 (Oct. 20-22, 2017)
+- ISU GP 2017 Skate Canada International (Oct. 27-29, 2017)
+- ISU GP Audi Cup of China 2017 (Nov. 3-5, 2017)
+- ISU GP NHK Trophy 2017 (Nov. 10-12, 2017)
+- ISU GP Internationaux de France de Patinage 2017 (Nov. 17-19, 2017)
+- ISU GP 2017 Bridgestone Skate America (Nov. 24-26, 2017)
+- Grand Prix Final 2017 Senior and Junior (Dec. 7-10, 2017)
