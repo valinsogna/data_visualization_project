@@ -41,6 +41,8 @@ The CSV-formatted data is split up into four files:
 
 - `judge-scores.csv`: One row for each judge, for each judged aspect, for each performance at each competition.
 
+- `judges.csv`: The ISU posts the names of each judge (for each program) on a series of HTML pages on its website. BuzzFeed News collected all of the judge names from those pages and standardized that data. On the ISU's website, judges are often labeled simply as members of the ISU instead of their home country. BuzzFeed News used the ISU's lists of officials for the 2017-18 season and the 2016-17 season to identify each judge's home country. You can find the results in [`judge-country.csv`](https://github.com/BuzzFeedNews/2018-02-figure-skating-analysis/blob/master/data/processed/judge-country.csv).
+
 ### Data Dictionary
 
 - `performances.csv`:
@@ -77,3 +79,5 @@ The CSV-formatted data is split up into four files:
 ## Licensing
 
 All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). All data files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license.
+
+
