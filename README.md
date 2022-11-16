@@ -43,8 +43,8 @@ The CSV-formatted data is split up into four files:
     - __rank__: Final place in the program.
     - __starting_number__: The order in which the skaters skated.
     - __total_segment_score__: The total score for the program.
-    - __total_element_score__: The total score of all elements in the program.
-    - __total_component_score__: The total score of all components in the program. 
+    - __total_element_score__: The total score of all elements in the program (individual technical pieces of a program, such as jumps and spins). 
+    - __total_component_score__: The total score of all components in the program (recall 5 "components": Skating Skills, Transitions, Performance, Composition, and Interpretation).
 	- __total_deductions__: The total deductions given by the technical panel for the performance.
 
 - `judged-aspects.csv`:
