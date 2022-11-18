@@ -1,10 +1,10 @@
 Domande:
-- Quali sono i componenti più difficili? (a quali componenti sono associate maggiormente le penalizzazioni nel programma)
-- Chi sono i giudici più buoni?
-- Sono più importanti elements o components? 
+- Quali sono gli elementi più sbagliati/difficili? (a quali componenti sono associate maggiormente le penalizzazioni nel programma)
+- Chi sono i giudici più buoni? ///ci penso
+- Sono più importanti per voto elements o components? classifica (rank) - aspect final score - total_segment_score	total_element_score	total_component_score
     Att: 
     Components are 5: Skating Skills, Transitions, Performance, Composition, and Interpretation
     Elements are individual technical pieces of a program, such as jumps and spins
-- Chi sono gli atleti che presentano elementi più difficili? (factor più alti)
+- Chi sono gli atleti che presentano elementi più difficili? (base_vale più alti)
 - Quali sono gli elementi più fisicamente impegnativi? (vengono presentati prima all'interno del programma)
 - Bias giudici?
