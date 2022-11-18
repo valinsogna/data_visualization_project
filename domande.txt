@@ -5,6 +5,6 @@ Domande:
     Att: 
     Components are 5: Skating Skills, Transitions, Performance, Composition, and Interpretation
     Elements are individual technical pieces of a program, such as jumps and spins
-- Chi sono gli atleti che presentano elementi più difficili? (factor più alti)
+- Chi sono gli atleti che presentano elementi più difficili? (base value più alti)
 - Quali sono gli elementi più fisicamente impegnativi? (vengono presentati prima all'interno del programma)
 - Bias giudici?
