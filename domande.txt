@@ -1,5 +1,5 @@
 Domande:
-1- Quali sono gli elementi più sbagliati/difficili? (a quali componenti sono associate maggiormente le penalizzazioni nel programma)
+1- Quali sono gli elementi più sbagliati/difficili? (a quali elementi sono associate maggiormente le penalizzazioni nel programma)
 2- Chi sono i giudici più buoni? ///ci penso
 3- Sono più importanti per voto elements o components? classifica (rank) - aspect final score - total_segment_score	total_element_score	total_component_score
     Att: 
