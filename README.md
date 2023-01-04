@@ -1,38 +1,57 @@
 # Data Visualization project
 
-At the end of each competition it oversees, the [International Skating Union](http://www.isu.org/) releases a PDF containing all scores given for each performance. That report is known as a "Protocol," and an example can be [found here](http://www.isuresults.com/results/season1718/gpf1718/gpf2017_protocol.pdf). The code in this repository downloads a series of protocol PDFs, and then extracts structured data from the scoring sheets they contain.
+This is the Data Visualization project of Valeria Insogna and Cecilia Zagni.
+The dataset contains info about results from 17 major international skating events from October 2016 through December 2017.
 
-Currently, the data in this repository includes every major international competition from October 2016 through December 2017. You can find a list of those 17 competitions below.
+The project addresses the following questions about the data:
+* Do judges favour their home country?
+* Who are the athletes that present the more difficult elements and how are they ranked? 
+* Are element's scores more important than component's scores in the final ranking?
 
-## Glossary
 
-This repository uses the following definitions:
+At the end of each event it oversees, the [International Skating Union](http://www.isu.org/) releases a PDF containing all scores given for each performance which are of public domain. That report is known as a "Protocol," and an example can be [found here](http://www.isuresults.com/results/season1718/gpf1718/gpf2017_protocol.pdf).
 
-- __ISU__: The abbreviation for the [International Skating Union](http://www.isu.org/), the group that runs figure skating's highest-level international competitions.
-- __Protocol PDF__: The final score sheet released at the end of each competition. ([Example](http://www.isuresults.com/results/season1718/gpf1718/gpf2017_protocol.pdf?).)
+You can find a list of those 17 competitions below.
+
+## Required Packages
+
+- Python 3.9
+- plotly 
+- pandas
+- numpy
+
+## Structure
+
+You can find the following files and folders in this repository:
+
+- `data/`: The final data used in the 3 notebooks after preprocessing.
+- `img/`: The picture used in the presentation and plots.
+- `plots/`: The 3 plots used in the presentation.
+- `preprocessing/`: The code used to preprocess the raw data from [this repository](https://github.com/BuzzFeedNews/2018-02-figure-skating-analysis).
+    * `Preprocessing.ipynb`: The notebook used to preprocess the data.
+    * `final.csv`: The final processed data used.
+    * `performances.csv`: One row for each skater/team, for each program.
+    * `judged-aspects.csv`: One row for each "executed element" and "program component", for each performance at each competition.
+    * `judge-scores.csv`: One row for each judge, for each judged aspect, for each performance at each competition.
+    * `judges.csv`: The ISU posts the names of each judge (for each program) on a series of HTML pages on its website. BuzzFeed.News collected all of the judge names from those pages and standardized that data. On the ISU's website, judges are often labeled simply as members of the ISU instead of their home country. 
+    * `judge-country.csv` is the final csv processed by BuzzFeed News to identify each judge's home country [(here)](https://github.com/BuzzFeedNews/2018-02-figure-skating-analysis/blob/master/data/processed/judge-country.csv).
+- `utils/`: The license of the background picture of the presentation.
+- `final_question_1.ipynb`: the notebook addressing the first question.
+- `final_question_2.ipynb`: the notebook addressing the second question.
+- `final_question_3.ipynb`: the notebook addressing the third question.
+- `LICENSE`: The license for the code in this repository.
+
+
+## Our glossary
+
 - __Program__: One segment of a figure skating competition. International figure skating competitions are divided into Short and Free programs.
 - __Elements__: The individual technical pieces of a program, such as jumps and spins. Each judge provides a score for each individual element known as a "Grade of Execution."
 - __Components__: For each performance, each judge provides scores for five "components": Skating Skills, Transitions, Performance, Composition, and Interpretation. 
 - __Aspect__: This is the term used by this analysis to refer to an individual component or element.
 - __Scale of Values__: The ISU's conversion table between the "Grade of Execution" and the points awarded for each type of element. See below for more details.
-- __Home country__: The country the judge or skater represents in competition. _Note:_ This is not necessarily a judge or skater's country of birth.
-- __Home-country preference__: The difference in the number of points a judge awards to skaters from their home country versus those from other countries. Higher home-country scores do not in and of themselves show a judge is deliberately trying to raise a compatriot’s standing; the scores could reflect a preference for a regional style of skating, for example, or an inclination toward skaters the judge has taken special note of, or even just patriotism.
 
-## Data
 
-### CSV Structure
-
-The CSV-formatted data is split up into four files:
-
-- `performances.csv`: One row for each skater/team, for each program.
-
-- `judged-aspects.csv`: One row for each "executed element" and "program component", for each performance at each competition.
-
-- `judge-scores.csv`: One row for each judge, for each judged aspect, for each performance at each competition.
-
-- `judges.csv`: The ISU posts the names of each judge (for each program) on a series of HTML pages on its website. BuzzFeed News collected all of the judge names from those pages and standardized that data. On the ISU's website, judges are often labeled simply as members of the ISU instead of their home country. BuzzFeed News used the ISU's lists of officials for the 2017-18 season and the 2016-17 season to identify each judge's home country. You can find the results in [`judge-country.csv`](https://github.com/BuzzFeedNews/2018-02-figure-skating-analysis/blob/master/data/processed/judge-country.csv).
-
-### Data Dictionary
+## Glossary of original data
 
 - `performances.csv`:
     - __performance_id__: An ID unique to each performance in a program of a competition. Autogenerated for the CSV files.
@@ -67,9 +86,9 @@ The CSV-formatted data is split up into four files:
 
 ## Licensing
 
-All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). All data files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license.
+All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Competitions Included
+## Events Included
 
 2016–17 season:
 
