@@ -11,11 +11,13 @@ The project addresses the following questions about the data:
 
 At the end of each event it oversees, the [International Skating Union](http://www.isu.org/) releases a PDF containing all scores given for each performance which are of public domain. That report is known as a "Protocol," and an example can be [found here](http://www.isuresults.com/results/season1718/gpf1718/gpf2017_protocol.pdf).
 
-You can find a list of those 17 competitions below.
+You can find a list of those 17 competitions at the following [link](https://github.com/BuzzFeedNews/2018-02-figure-skating-analysis).
 
 ## Required Packages
 
 - Python 3.9
+
+Subpackages:
 - plotly 
 - pandas
 - numpy
@@ -83,32 +85,3 @@ You can find the following files and folders in this repository:
     - __aspect_id__: See above.
     - __judge__: The identifier assigned to the judge, e.g., "J1".
 	- __score__: The GOE (for elements) or score (for components) awarded by the judge for the aspect.
-
-## Licensing
-
-All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Events Included
-
-2016–17 season:
-
-- ISU GP 2016 Progressive Skate America (Oct. 20-23, 2016)
-- ISU GP 2016 Skate Canada International (Oct. 27-30, 2016)
-- ISU GP Rostelecom Cup 2016 (Nov. 4-6, 2016)
-- ISU GP Trophee de France 2016 (Nov. 11-13, 2016)
-- ISU GP Audi Cup of China 2016 (Nov. 17-20, 2016)
-- ISU GP NHK Trophy 2016 (Nov. 25-27, 2016)
-- ISU Grand Prix of Figure Skating Final 2016 (Dec. 8-11, 2016)
-- ISU European Figure Skating Championships 2017 (Jan. 23-29, 2017)
-- ISU Four Continents Championships 2017 (Feb. 14-19, 2017)
-- ISU World Figure Skating Championships 2017 (Mar. 27 - Apr. 2, 2017)
-
-2017–18 season:
-
-- ISU GP Rostelecom Cup 2017 (Oct. 20-22, 2017)
-- ISU GP 2017 Skate Canada International (Oct. 27-29, 2017)
-- ISU GP Audi Cup of China 2017 (Nov. 3-5, 2017)
-- ISU GP NHK Trophy 2017 (Nov. 10-12, 2017)
-- ISU GP Internationaux de France de Patinage 2017 (Nov. 17-19, 2017)
-- ISU GP 2017 Bridgestone Skate America (Nov. 24-26, 2017)
-- Grand Prix Final 2017 Senior and Junior (Dec. 7-10, 2017)
