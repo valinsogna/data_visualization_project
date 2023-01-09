@@ -37,6 +37,7 @@ You can find the following files and folders in this repository:
 - `final_question_3.ipynb`: the notebook addressing the third question.
 - `presentation.pdf`: the presentation of the project in pdf version.
 - `presentation.pptx`: the presentation of the project in pdf version.
+- `LICENSE`: the license of the project.
 
 
 ## Useful links
